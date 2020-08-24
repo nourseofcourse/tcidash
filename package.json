@@ -1,0 +1,43 @@
+{
+  "name": "tcinuxt",
+  "version": "1.0.1",
+  "description": "Frontend of TCI dashboard.",
+  "author": "Brandon Nourse",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generatedev": "nuxt generate --development",
+    "finish-release": "npm --no-git-tag-version version patch && git push origin --follow-tags",
+    "feature-start": "git flow feature start $name",
+    "feature-finish": "git flow feature finish $name"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "apexcharts": "^3.10.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0",
+    "dropbox": "^4.0.30",
+    "jquery": "^3.4.1",
+    "net": "^1.0.2",
+    "nuxt": "^2.0.0",
+    "popper.js": "^1.16.0",
+    "tls": "0.0.1",
+    "vue-apexcharts": "^1.5.0",
+    "vue-avatar": "^2.1.8",
+    "vue-clickaway": "^2.2.2",
+    "vue-peity": "^0.5.0",
+    "vue-tables-2": "^1.4.92"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.16.4",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2"
+  }
+}

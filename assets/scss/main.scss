@@ -1,0 +1,85 @@
+.page-wrapper-img {
+  background-image: url('/overlay.png');
+}
+
+.topbar .topbar-left .logo .logo-sm {
+  height: 50px;
+}
+
+.navbar-custom-menu a.active {
+  color: #00bcd4 !important;
+}
+
+.accountbg {
+  background: url('/hero-fallback-1.jpg');
+  background-size: cover;
+  background-position: right center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(35, 34, 47, 0.8);
+  box-shadow: inset 0 0 0 2000px rgba(35, 34, 47, 0.8);
+}
+
+.bg-gradient4 {
+  background-image: linear-gradient(90deg, #11998e 0%, #40bf92 100%);
+  color: #fff;
+}
+
+.navigation-menu > li > a:hover {
+  color: #00bcd4;
+}
+
+.profile-nav .nav .nav-link.active,
+.navigation-menu > li > a:hover {
+  color: #00bcd4;
+}
+
+.fro_profile
+  .fro_profile-main
+  .fro_profile-main-pic
+  .fro-profile_main-pic-change {
+  background-color: #00bcd4;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.form-control:disabled {
+  background-color: #f8f9fa;
+}
+
+.breadcrumb > li + li:before {
+  font-family: 'Font Awesome 5 Pro' !important;
+}
+
+.card-body--team,
+.card-body--user {
+  padding: 2.5rem;
+}
+
+.VueTables__search {
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+.VueTables__search-field {
+  display: flex;
+  label {
+    margin-right: 10px;
+  }
+}
+
+.page-wrapper .navigation-menu > li > a.disabled {
+  color: #dddfe0;
+  cursor: default;
+}
+
+.page-wrapper .navigation-menu > li > a.disabled:hover i {
+  color: #dddfe0;
+}

@@ -1,0 +1,81 @@
+///*----------------------------------*\
+//  #COLORS
+//\*----------------------------------*/
+
+// Set up a colour palette which allows us to theme the entire project from one
+// location.
+
+$color-key: "base" !default;
+
+$color-palette: (
+  "gray": (
+    "base": #5d5b6f,
+    "light": #6c757d,
+    "dark": #212529
+  ),
+  "social": (
+    "facebook": #3b5998,
+    "youtube": #ff0000,
+    "twitter": #00aced
+  ),
+  "primary": (
+    "base": #00bcd4,
+    "light": lighten(#00bcd4, 7%),
+    "dark": darken(#00bcd4, 7%)
+  ),
+  "secondary": (
+    "base": #4a8ec2,
+    "light": lighten(#4a8ec2, 7%),
+    "dark": darken(#4a8ec2, 7%)
+  ),
+  "success": (
+    "base": #1ecab8,
+    "light": lighten(#1ecab8, 7%),
+    "dark": darken(#1ecab8, 7%)
+  ),
+  "info": (
+    "base": #4a8ec2,
+    "light": lighten(#4a8ec2, 7%),
+    "dark": darken(#4a8ec2, 7%)
+  ),
+  "warning": (
+    "base": #fbb624,
+    "light": lighten(#fbb624, 7%),
+    "dark": darken(#fbb624, 7%)
+  ),
+  "danger": (
+    "base": #f93b7a,
+    "light": lighten(#f93b7a, 7%),
+    "dark": darken(#f93b7a, 7%)
+  )
+);
+
+$color-opacity: (
+  "light": 0.4,
+  "dark": 0.8
+);
+
+// Colour palette.
+$color-pink: #ed4096;
+$color-blue: #0a99e9;
+$color-white: #ffffff;
+
+$color-accent: #00bcd4;
+$color-primary: #f42267;
+$color-secondary: #222328;
+$color-tertiary: #222328;
+$color-tint: #eeeeee;
+
+$color-light: #f8f9fa;
+
+$color-text: #98a6ad;
+$color-headlines: #222328;
+$color-dark-gray: #9b9b9b;
+
+$color-white: #fff;
+
+// Reassign literal variables to meaningful ones.
+$color-page-text: $color-text;
+$color-page-headlines: #212529;
+$color-page-background: #f2f5f7;
+$color-site-head-background: $color-white;
